@@ -1,0 +1,23 @@
+name: flutter_camapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.3
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  gallery_saver_plus: ^3.2.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
